@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.11-slim
 RUN pip install django==3.2
 
 COPY . .
