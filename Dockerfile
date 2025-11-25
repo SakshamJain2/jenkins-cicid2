@@ -1,5 +1,5 @@
 FROM python:3.12
-RUN pip install django=3.2
+RUN pip install django==3.2
 
 COPY . .
 RUN python mange.py migrate
