@@ -32,7 +32,7 @@ pipeline {
     
   }
   post {
-    sucess{
+    success{
       echo "deployment is succesful : djangapp:1.0.0"
     }
     failure {
